@@ -1,5 +1,5 @@
 #MyGrid
-## My personal compass grid
+## My personal grid
 
 ### Some code example
 
@@ -9,105 +9,95 @@ For use this, you only need know this things:
 - All element attribute: margin, position, padding... has a "_" (one underscore) like a prefix
 
 		//Column
-		._col
+		_col
 	
 		//Align element left
-		._left
+		_left
 	
 		//Align element left
-		._right
+		_right
 	
 		//Align element center
-		._center
+		_center
 
 
 - Element width size has two underscore "__"
 
 		//Sizes
-		.__100pc{
-			margin: 0.5%;
-			width: 97%;
-			max-width: 1700px;
-		}
+		
+		//100%
+		__100pc
 
-		.__90pc{
-			margin: 0.5%;
-			width: 87%;
-			max-width: 1500px;
-		}
-
-		.__80pc{
-			margin: 0.5%;
-			width: 77%;
-			max-width: 1200px;
-		}
-
-		.__70pc{
-			margin: 0.5%;
-			width: 67%;
-		}
-
-		.__60pc{
-			margin: 0.5%;
-			width: 57%;
-		}
-
-		.__50pc{
-			margin: 0.5%;
-			width: 47%;
-		}
-
-		.__40pc{
-			margin: 0.5%;
-			width: 37%;
-		}
-
-		.__30pc{
-			margin: 0.5%;
-			width: 27%;
-		}
-
-		.__20pc{
-			margin: 0.5%;
-			width: 17%;
-		}
+		
+		//90%
+		__90pc
+		
+		
+		//80%
+		__80pc
+		
+		
+		//70%
+		__70pc
+		
+		
+		//60%
+		__60pc
+		
+		
+		//50%
+		__50pc
+		
+		
+		//40%
+		__40pc
+		
+		
+		//30%
+		__30pc
+		
+		
+		//20%
+		__20pc
 		
 - Basic margin and padding options
 
 		//-- nomargin	
-		._nm{margin: 0% !important;}
+		_nm
 
 		//-- no margin top
-		._n-mt{margin-top: 0% !important;}
+		_n-mt
 
 		//-- no margin right
-		._n-mr{margin-right: 0% !important;}
+		_n-mr
 
 		//-- no margin bottom
-		._n-mb{margin-bottom: 0% !important;}
+		_n-mb
 
 		//-- no margin left
-		._n-ml{margin-left: 0% !important;}
+		_n-ml
 		
 		
 		
 		//-- no padding	
-		._np{padding: 0% !important;}
+		_np
 
 		//-- no padding top
-		._n-pt{padding-top: 0% !important;}
+		_n-pt
 
 		//-- no padding right
-		._n-pr{padding-right: 0% !important;}
+		_n-pr
 
 		//-- no padding bottom
-		._n-pb{padding-bottom: 0% !important;}
+		_n-pb
 
 		//-- no padding left
-		._n-pl{padding-left: 0% !important;}
+		_n-pl
 		
 		
 
 Until this moment we only have this options. But you can help me. You can create a new options, sizes and utilities. Go ahead!
+
+	<div class="_col _left __30pc"></div>
 
  *sorry for my amateur english :(*
